@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\resources">
+      <UniqueIdentifier>{e3ecea4d-95d3-415e-8272-db969a243409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProcessingBackend">
+      <UniqueIdentifier>{1cb97705-7ef0-43b6-b8b8-12ba33f58214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProcessingBackend">
+      <UniqueIdentifier>{c0ac43a3-c66c-4f70-bc49-3e7011d05c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AndroidifySketch">
+      <UniqueIdentifier>{c2638a1b-58d7-414f-8bde-bda81959108d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AndroidifySketch">
+      <UniqueIdentifier>{71049870-9138-43ba-9922-c858cfd1e33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BreakoutSketch">
+      <UniqueIdentifier>{d6588add-4d13-4343-b100-abe4123a7554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BreakoutSketch">
+      <UniqueIdentifier>{b7228b15-43e6-4a75-8580-a14178fa2112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainMenuSketch">
+      <UniqueIdentifier>{371dc463-2e6b-453b-9878-7b04dae3cb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainMenuSketch">
+      <UniqueIdentifier>{01642fa5-9189-4ca0-bc76-92838a56c43e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files\ProcessingBackend</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidRobot.cpp">
+      <Filter>Source Files\AndroidifySketch</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidifyApp.cpp">
+      <Filter>Source Files\AndroidifySketch</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Source Files\AndroidifySketch</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakoutApp.cpp">
+      <Filter>Source Files\BreakoutSketch</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files\BreakoutSketch</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\BreakoutSketch</Filter>
+    </ClCompile>
+    <ClCompile Include="Pad.cpp">
+      <Filter>Source Files\BreakoutSketch</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelRoutines.cpp">
+      <Filter>Source Files\BreakoutSketch</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuApp.cpp">
+      <Filter>Source Files\MainMenuSketch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\prepare_assets.bat">
+      <Filter>Resource Files\resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\ProcessingBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidifyApp.h">
+      <Filter>Header Files\AndroidifySketch</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidRobot.h">
+      <Filter>Header Files\AndroidifySketch</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Header Files\AndroidifySketch</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakoutApp.h">
+      <Filter>Header Files\BreakoutSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files\BreakoutSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\BreakoutSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="Pad.h">
+      <Filter>Header Files\BreakoutSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelRoutines.h">
+      <Filter>Header Files\BreakoutSketch</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuApp.h">
+      <Filter>Header Files\MainMenuSketch</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
