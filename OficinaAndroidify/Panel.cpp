@@ -1,6 +1,6 @@
 #include "Panel.h"
-#include <OficinaFramework\InputSystem.hpp>
-#include <OficinaFramework\RenderingSystem.hpp>
+#include <OficinaFramework/InputSystem.hpp>
+#include <OficinaFramework/RenderingSystem.hpp>
 using namespace OficinaFramework;
 
 extern bool BACKTOMENU;

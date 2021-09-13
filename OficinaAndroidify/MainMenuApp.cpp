@@ -1,6 +1,6 @@
 #include "MainMenuApp.h"
-#include <OficinaFramework\InputSystem.hpp>
-#include <OficinaFramework\RenderingSystem.hpp>
+#include <OficinaFramework/InputSystem.hpp>
+#include <OficinaFramework/RenderingSystem.hpp>
 using namespace OficinaFramework;
 
 #include "AndroidifyApp.h"
@@ -29,7 +29,7 @@ void MainMenuApp::unload()
 void MainMenuApp::draw()
 {
 	float width  = RenderingSystem::GetResolution().x;
-	float height = RenderingSystem::GetResolution().y;
+	//float height = RenderingSystem::GetResolution().y;
 
 	if (InputSystem::MovedStick(
 		InputSystem::ThumbStick::LEFTSTICK,
@@ -56,8 +56,8 @@ void MainMenuApp::draw()
 		case 1: // Breakout
 			ScreenSystem::AddScreen(new BreakoutApp);
 			break;
-		//case 2: // Snake
-		//	break;
+		case 2: // Snake
+			break;
 		default: // Quits
 			InputSystem::CallExitCommand();
 			break;

@@ -1,4 +1,4 @@
-#include <OficinaFramework\TimingSystem.hpp>
+#include <OficinaFramework/TimingSystem.hpp>
 #include "Ball.h"
 
 extern int  LIVES;
@@ -9,7 +9,7 @@ extern int  MULTIPLIER;
 
 Ball::Ball()
 {
-	float width = static_cast<float>(RenderingSystem::GetResolution().x);
+	//float width = static_cast<float>(RenderingSystem::GetResolution().x);
 	float height = static_cast<float>(RenderingSystem::GetResolution().y);
 
 	position = vec2(0.0f, 21.0f * height / 24.0f);
@@ -133,7 +133,7 @@ void Ball::update()
 			// All you need to do is invert X and Y accordingly, plus remove if necessary.
 			if (intersectsBlock(b))
 			{
-				boolean touched = false;
+				bool touched = false;
 				// Left collision
 				if ((rightedge >= b->leftedge && rightedge < b->position.x && speed.x > 0.0f)
 					// Right collision

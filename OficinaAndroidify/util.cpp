@@ -1,8 +1,8 @@
 #include <ctime>
 #include "util.h"
-#include <OficinaFramework\OficinaFramework.hpp>
-#include <OficinaFramework\OficinaExceptions.hpp>
-#include <OficinaFramework\RenderingSystem.hpp>
+#include <OficinaFramework/OficinaFramework.hpp>
+#include <OficinaFramework/OficinaExceptions.hpp>
+#include <OficinaFramework/RenderingSystem.hpp>
 
 static bool fillState     = true;
 static bool strokeState   = true;
@@ -416,7 +416,7 @@ void textAlign(ProcessingProperties x) {
 void textAlign(ProcessingProperties x, ProcessingProperties y)
 {
 	if (x < LEFT || x > RIGHT ||
-		y != CENTER && (y < TOP || y > BASELINE)) return;
+		(y != CENTER) && (y < TOP || y > BASELINE)) return;
 	textAlignment[0] = x;
 	textAlignment[1] = y;
 }

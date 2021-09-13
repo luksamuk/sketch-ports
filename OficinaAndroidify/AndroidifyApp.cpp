@@ -1,7 +1,7 @@
 #include "AndroidifyApp.h"
 #include "AndroidRobot.h"
 #include "Panel.h"
-#include <OficinaFramework\InputSystem.hpp>
+#include <OficinaFramework/InputSystem.hpp>
 using namespace OficinaFramework;
 
 #include "MainMenuApp.h"

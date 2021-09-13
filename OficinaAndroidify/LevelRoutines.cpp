@@ -30,7 +30,7 @@ void BuildLevel(const std::vector<int> &indexes)
 	int maxXblocks = int(width / blocksize.x);
 	int maxYblocks = int(height / blocksize.y) / 2;
 
-	for (int i = 0; i < indexes.size(); i++) {
+	for (auto i = 0; i < indexes.size(); i++) {
 		int ypos = indexes[i] / maxXblocks;
 		int xpos = indexes[i] - (ypos * maxXblocks);
 

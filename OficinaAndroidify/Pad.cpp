@@ -1,7 +1,7 @@
 #include "Pad.h"
-#include <OficinaFramework\RenderingSystem.hpp>
-#include <OficinaFramework\InputSystem.hpp>
-#include <OficinaFramework\TimingSystem.hpp>
+#include <OficinaFramework/RenderingSystem.hpp>
+#include <OficinaFramework/InputSystem.hpp>
+#include <OficinaFramework/TimingSystem.hpp>
 
 Pad::Pad()
 {

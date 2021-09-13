@@ -1,6 +1,6 @@
 #pragma once
-#include <OficinaFramework\OficinaTypes.hpp>
-#include <OficinaFramework\RenderingSystem.hpp>
+#include <OficinaFramework/OficinaTypes.hpp>
+#include <OficinaFramework/RenderingSystem.hpp>
 #include <list>
 using namespace OficinaFramework;
 

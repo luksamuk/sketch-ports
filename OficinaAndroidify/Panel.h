@@ -1,5 +1,5 @@
 #pragma once
-#include <OficinaFramework\OficinaTypes.hpp>
+#include <OficinaFramework/OficinaTypes.hpp>
 #include "util.h"
 #include "AndroidRobot.h"
 

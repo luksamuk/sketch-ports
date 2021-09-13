@@ -1,5 +1,5 @@
 #include "BreakoutApp.h"
-#include <OficinaFramework\InputSystem.hpp>
+#include <OficinaFramework/InputSystem.hpp>
 #include <ostream>
 #include <iomanip>
 #include <algorithm>

@@ -1,6 +1,6 @@
 #pragma once
-#include <OficinaFramework\OficinaTypes.hpp>
-#include <OficinaFramework\InputSystem.hpp>
+#include <OficinaFramework/OficinaTypes.hpp>
+#include <OficinaFramework/InputSystem.hpp>
 #include "util.h"
 using namespace OficinaFramework;
 
